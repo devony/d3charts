@@ -1,0 +1,59 @@
+.d3ts {
+  stroke: black;
+  stroke-width: 1px;
+  fill: transparent;
+
+  .axis {
+    shape-rendering: crispEdges;
+    font: 9px sans-serif;
+    font-weight: 100;
+    font-color: black;
+
+    .tick {
+      display: none;
+    }
+  }
+
+  .x.axis {
+    stroke-width: 0.5px;
+  }
+
+  .y.axis {
+    stroke-width: 0.25px;
+    path {
+      display: none;
+    }
+  }
+
+  .tsline {
+    fill: lightgray;
+  }
+
+  .backline {
+    stroke-width: 0.25px;
+  }
+}
+
+.d3bar {
+  rect {
+    stroke: white;
+    fill: lightgray;
+  }
+
+  text {
+    font: 12px sans-serif;
+    fill: black;
+  }
+
+  .axis {
+    stroke-width: 0.25px;
+
+    .domain {
+      display: none;
+    }
+  }
+
+  .backline {
+    stroke-width: 0.25px;
+  }
+}
